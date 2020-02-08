@@ -1,7 +1,9 @@
+import { resolve } from "path"
 import express from 'express';
-import { sequelize } from './sequelize';
 import { config } from "dotenv";
+config({ path: resolve(__dirname, "./../.env") });
 
+import { sequelize } from './sequelize';
 import { IndexRouter } from './controllers/v0/index.router';
 
 import bodyParser from 'body-parser';
@@ -14,7 +16,6 @@ import { V0MODELS } from './controllers/v0/model.index';
 
   const app = express();
   const port = process.env.PORT || 8080; // default port to listen
-  config();
   app.use(bodyParser.json());
 
   //CORS Should be restricted
