@@ -1,5 +1,19 @@
 # Udagram REST API
 
+### Notes
+
+Installed Elastic Beanstalk CLI via Homebrew, do not bother with the direct installation instructions from [here](https://github.com/aws/aws-elastic-beanstalk-cli-setup)
+
+* `brew install awsebcli`
+
+### Setup EB
+
+* `eb init`
+* `npm run build`
+* `eb create`
+
+### Original Description
+
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
 
 The project is split into three parts:
