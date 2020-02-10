@@ -11,6 +11,9 @@ Installed Elastic Beanstalk CLI via Homebrew, do not bother with the direct inst
 * `eb init --profile aws_educate`
 * `npm run build`
 * `eb create --profile aws_educate`
+* `eb deploy --profile aws_educate`
+* `eb terminate --all` to terminate Elastic Beanstalk environments
+* `eb abort` to cancel an active eb operation
 
 ### Original Description
 
