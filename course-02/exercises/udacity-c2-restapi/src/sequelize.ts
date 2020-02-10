@@ -3,8 +3,6 @@ import { config } from './config/config';
 
 
 const c = config.dev;
-console.log("DB: ", c);
-// console.log("ENV:", process.env)
 
 // Instantiate new Sequelize instance!
 export const sequelize = new Sequelize({
