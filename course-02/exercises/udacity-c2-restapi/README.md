@@ -9,6 +9,7 @@ Installed Elastic Beanstalk CLI via Homebrew, do not bother with the direct inst
 ### Setup EB
 
 * `eb init --profile aws_educate`
+* `eb list --all`
 * `npm run build`
 * `eb create --profile aws_educate`
 * `eb deploy --profile aws_educate`
